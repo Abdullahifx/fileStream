@@ -1,0 +1,19 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./transfrom.js",
+  "scripts": {
+    "trans": "node ./transformStream.js",
+    "zip": "node ./convertZip.js",
+    "unzip": "node ./convertToUnZip.js",
+    "duplex": "node ./duplex.js",
+    "watch": "node ./watch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
